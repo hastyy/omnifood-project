@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* height, width contain margin and padding */
+}  /* margin & padding probably unnecessary because of normalize.css */
+
+html {  /* could be body */
+  background-color: #fff;
+  color: #555;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
