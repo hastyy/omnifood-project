@@ -196,6 +196,53 @@ header {
 }
 
 
+/* -------------------------------------------------------------- */
+/* FEATURES */
+/* -------------------------------------------------------------- */
+
+.section-features .long-copy {
+  margin-bottom: 30px;
+}
+
+
+/* -------------------------------------------------------------- */
+/* MEALS */
+/* -------------------------------------------------------------- */
+
+.section-meals {
+  padding: 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;  /* exact width of it's parent */
+  margin: 0;
+  overflow: hidden; /* because of img scale(1.15) */
+  background-color: #000; /* to make the img darker, since it has opacity set */
+}
+
+.meal-photo img {
+  opacity: 0.7;  /* to show the background of the container */
+  width: 100%;  /* img is display: inline-block */
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  transform: scale(1.03); /* .03 removes a nasty white space below the imgs when they scale-out */
+  opacity: 1;
+}
 
 
 
